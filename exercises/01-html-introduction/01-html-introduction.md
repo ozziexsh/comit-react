@@ -1,3 +1,13 @@
 # Exercise 01 - HTML Introduction
 
-Welcome to the first exercise!
+Let's start off small and create a spinoff of the Hello World application that we went over in the slides.
+
+## Instructions
+
+1. Create an `index.html` file inside this folder
+2. Write all of the necessary boilerplate (`<html>`, `<head>`, `<body>`, etc)
+3. Create an `H1` tag saying `Hello, ComIT!`
+
+## Bonus
+
+1. Place a `paragraph` tag underneath the heading with a message of your choice
