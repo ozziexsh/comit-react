@@ -49,25 +49,6 @@ You can display an image in a webpage by using the `img` tag.
 - `src` - Refers to where the file is located
 - `alt` - Text that is provided to screen readers and renders on the page if the image fails to load. Should describe the image
 
-## Hyperlinks
-
-The `a` element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
-
-Between the opening and the closing tag we can add the link content that the user will click on
-As content we can put other HTML elements like an image tag
-
-```html
-<a href="other_file.html">Click me I'm a link!</a>
-<a href="my_dog.jpg">
-  <img src="my_dog.jpg" alt="A picture of my dog" />
-</a>
-<a href="https://google.com">Go to Google</a>
-```
-
-**Required Attributes**
-
-- `href` - URL or URL fragment that the hyperlink points to
-
 # Exercise Instructions
 
 1. Create an `index.html` file here
