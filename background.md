@@ -9,6 +9,8 @@ This document covers some common background knowledge that is good to have going
 - `parent` and `child` (or `children`) are used to represent heirarchy
   - e.g. If you have a folder `music` with the files `a.mp3` and `b.mp3`, `music` is the parent and `a.mp3` and `b.mp3` are the children
   - e.g. In the context of html: `<div><p>Hello!</p></div>`, `<p>` is a child of `<div>`
+- `index` is generally refered to as the `entry file`
+  - e.g. in the case of webservers, if you have `http://mysite.com`, a basic webserver by default will look for a file called `index.html` (instead of explicitly visiting `http://mysite.com/index.html`)
 - When refrencing a filesystem:
   - Windows uses backslashes, OS X and Linux use forward slashes
     - Windows: `C:\Users\ozzie`

@@ -2,7 +2,7 @@
 
 Lists are all over the web. Dropdowns, top 10's, viewing your favourite spotify songs, lists are everywhere.
 
-As we learned in the last exercise, many elements (like `<em>`, `<strong>`, etc) have default styling/formatting attached to them. Lists get styling to, wzell, look like a list.
+As we learned in the last exercise, many elements (like `<em>`, `<strong>`, etc) have default styling/formatting attached to them. Lists get styling to, you guessed it, look like a list.
 
 There are 3 types of lists in HTML, all by default have a `block` layout:
 
