@@ -6,7 +6,8 @@ Let's start off small and create a spinoff of the Hello World application that w
 
 1. Create an `index.html` file inside this folder
 2. Write all of the necessary boilerplate (`<html>`, `<head>`, `<body>`, etc)
-3. Create an `H1` tag saying `Hello, ComIT!`
+3. Set the title to `Exercise 01`
+4. Create an `H1` tag saying `Hello, ComIT!`
 
 ## Bonus
 

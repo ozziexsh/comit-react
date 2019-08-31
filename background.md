@@ -22,6 +22,8 @@ This document covers some common background knowledge that is good to have going
 - If you see a line start with a dollar sign (`$`) in something like a tutorial, it is usually referring to a command to run in a terminal
   - e.g. `$ git status` is telling you to enter `git status` in your terminal
 - If you encounter errors at any point in time, you can usually copy and paste the relevant error message into google and find solutions from other people who have ran into the problem before
+  - Try to only copy the relevant information, e.g. a specific error code
+  - Omit any directories in the error message that refer to your specific filesystem (e.g. error messages that contain `/Users/ozzie/index.js` i would remove that path from the search), as they wont turn results since no one else has that same structure
 - When performing google searches, fewer words will net you better results so focus on the keywords
 
 ## Command Line Interfaces
