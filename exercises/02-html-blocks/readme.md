@@ -78,9 +78,14 @@ As content we can put other HTML elements like an image tag
 > "Below you will find photos of my _favourite_ cats. You will notice that there are **_no dogs_** here."
 
 5. Place 5 photos of cats from [this website](https://placekitten.com/) underneath the paragraph
+   - hint: the cat photo URL's are formatted like: `http://placekitten.com/width/height`. Swap out the width and height for a number, e.g. `http://placekitten.com/200/300`
+6. Use a different width and height for each photo (specified using the url from above) to get a different cat for each image
+
+# Exercise Result
+
+![Exercise 02 result](../../readme-assets/exercise-02-result.png)
 
 # Further Reading
 
-[Full list of inline elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements)
-
-[Full list of block elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)
+- [Full list of inline elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements)
+- [Full list of block elements on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements)

@@ -6,6 +6,9 @@ This document covers some common background knowledge that is good to have going
 
 - `foo`, `bar`, and `baz` are used as generic placeholders in tutorials. What they refer to depends on the context
   - e.g. If I told you that you can add the flag `--version` to most commands and then gave you the example of `$ foo --version` you would substitute out `foo` for your actual command
+- `parent` and `child` (or `children`) are used to represent heirarchy
+  - e.g. If you have a folder `music` with the files `a.mp3` and `b.mp3`, `music` is the parent and `a.mp3` and `b.mp3` are the children
+  - e.g. In the context of html: `<div><p>Hello!</p></div>`, `<p>` is a child of `<div>`
 - When refrencing a filesystem:
   - Windows uses backslashes, OS X and Linux use forward slashes
     - Windows: `C:\Users\ozzie`
