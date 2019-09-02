@@ -1,4 +1,4 @@
-# Exercise 02 - HTML Blocks
+# Lesson 02 - HTML Blocks
 
 Did you do the bonus for exercise 1? Just incase you didn't, here's what it would have looked like:
 

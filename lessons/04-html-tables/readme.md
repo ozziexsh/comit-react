@@ -1,4 +1,4 @@
-# Exercise 04 - HTML Tables
+# Lesson 04 - HTML Tables
 
 The `<table>` element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
 

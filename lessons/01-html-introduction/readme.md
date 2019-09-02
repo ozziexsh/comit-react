@@ -1,4 +1,4 @@
-# Exercise 01 - HTML Introduction
+# Lesson 01 - HTML Introduction
 
 Let's start off small and create a spinoff of the Hello World application that we went over in the slides.
 

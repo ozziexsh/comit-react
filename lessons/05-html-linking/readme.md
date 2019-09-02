@@ -1,4 +1,4 @@
-# Exercise 05 - HTML Linking
+# Lesson 05 - HTML Linking
 
 The `<a>` element (or anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
 
@@ -28,6 +28,7 @@ Between the opening and the closing tag we can add the link content that the use
 ```html
 <!-- absolute -->
 <a href="http://yahoo.com">Yahoo</a>
+
 <!-- relative -->
 <a href="c:\Users\my_name\my_cv.pdf">Look at my CV</a>
 ```

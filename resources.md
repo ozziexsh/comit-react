@@ -10,3 +10,5 @@ Below is a list of useful resources that you can refer to when stuck or wanting 
   - [/r/css](https://www.reddit.com/r/css) - CSS specific discussions
   - [/r/javascript](https://www.reddit.com/r/javascript) - JavaScript specific discussions
   - [/r/react](https://www.reddit.com/r/react) - React specific discussions
+  - [/r/learnprogramming](https://www.reddit.com/r/learnprogramming) - Beginner community
+  - [/r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) - Computer science career related discussions
