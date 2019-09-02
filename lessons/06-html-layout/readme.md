@@ -133,11 +133,93 @@ If we were replace that `<span>` with a `<div>`, you can see the difference:
 
 ![Article with long date and div instead of span](../../readme-assets/lesson-06-date-div.png)
 
+## More layout elements
+
+There's a few more element's we can use to manipulate a page's layout. These are not containers, but they affect the flow of the document.
+
+### `<br />`
+
+Produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.
+
+If you haven't noticed already, doing this inside of a `<p>` tag:
+
+```html
+<p>
+  I am on multiple lines but i appear as one
+</p>
+```
+
+Will show up all in the same line. That's because in HTML line breaks do not matter and whitespace is only counted for one character (e.g. if you have `text spaced out` will be rendered as `text spaced out`).
+
+To get around this, we can use the `<br />` element inside of paragraph tags.
+
+```html
+<p>
+  O’er all the hilltops<br />
+  Is quiet now,<br />
+  In all the treetops<br />
+  Hearest thou<br />
+  Hardly a breath;<br />
+  The birds are asleep in the trees:<br />
+  Wait, soon like these<br />
+  Thou too shalt rest.
+</p>
+```
+
+The above will insert a break at the end of each line.
+
+### `<hr />`
+
+The `horiztonal rule` element. Represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.
+
+```html
+<p>1: The first rule of Fight Club is: You do not talk about Fight Club.</p>
+
+<hr />
+
+<p>2: The second rule of Fight Club is: Always bring cupcakes.</p>
+```
+
+Most browsers will render this as a solid grey line.
+
 # Exercise Instructions
 
+We're going to create a small blog.
+
+- Create a file, `index.html`
+- Set the document title to `<Your Name's> Blog`
+- Create a `<header>` element
+- Add heading `h1` to the header, `<Your Name's> Blog`
+- Create a `<main>` container underneath the `<header>`, not inside
+- Create 3 `<article>` elements, each with:
+  - A level 2 heading for the title, named whatever you want
+  - A date underneath the title, formatted as e.g. `Jan 06, 2019`, italicized (without CSS), in a `<p>` tag. Hovering the date should reveal a more specific time
+  - A single paragraph underneath the date, acting as an article summary or preview
+    - Can be generated from [lorem ipsum](https://www.lipsum.com/feed/html)
+  - Clicking on the article title should take you to the page for the post (created in next step)
+- Create a `posts` folder
+- Create 3 `.html` files in here to represent your blog articles titles
+  - e.g. `post-1.html`, `post-2.html`, `post-3.html`
+  - Make sure each article is linked to from the root `index.html` file
+- Each post file should have
+  - Its document title set to the title you gave the article in `index.html`
+  - The same page `<header>` from `index.html`, but the heading should link back to `index.html`
+  - A `<main>` container that contains
+    - The title of the post (not a link)
+    - The date it was posted
+    - 5 paragraphs of lorem ipsum
+    - Use a `<br />` to separate two of the paragraphs
+    - Use `<hr />` after the last paragraph
+    - Insert a `<footer>` with a `<p>` tag containing `- Your Name`
+
 # Exercise Result
+
+![Blog index page](../../readme-assets/exercise-06-result-index.png)
+![Blog post/article page](../../readme-assets/exercise-06-result-post.png)
 
 # Further Reading
 
 - [MDN div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 - [MDN span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
+- [MDN br](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br)
+- [MDN hr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)

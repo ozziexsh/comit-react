@@ -38,7 +38,7 @@ You'll notice that it just gets rendered all in the same line. That's because li
 
 ## Images
 
-You can display an image in a webpage by using the `img` tag.
+You can display an image in a webpage by using the `img` tag. The image tag is **self closing**, `<img src="" />` **not** `<img src=""></img>`.
 
 ```html
 <img src="cat.jpg" alt="A picture of an orange tabby cat" />
