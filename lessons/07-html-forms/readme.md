@@ -163,6 +163,10 @@ The textarea element represents a multi-line plain-text editing control. This el
 <textarea name="body">This would be what is inside the textarea</textarea>
 ```
 
+## `<label>`
+
+## `<button>`
+
 # Exercise Instructions
 
 # Exercise Result
