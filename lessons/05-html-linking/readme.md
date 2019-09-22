@@ -116,14 +116,20 @@ Here's a few more things you can do with anchor tags
 
 - On each document create:
   - Main title with the document name
-  - 5 auto-generated paragraphs (you can use: https://www.lipsum.com to generate random text)
   - From each document you should be able to nav to the other documents, example: from index.html you can navigate to news.html, about.html and contact.html
-- In about.html use the root path to go back to index.html and add a link to resume.html
+- In index.html place 5 auto-generated paragraphs (you can use: https://www.lipsum.com to generate random text)
+- In about.html add a link to resume.html
 - The contact.html file will have a `mailto` link with a fake email address and `Contact me` as content
 - Create a link to [https://thestarphoenix.com/](https://thestarphoenix.com/) in the news.html document and have it open in a new tab
-- Create a fake resume in the resume.html document. Add a contact link that will navigate to the contact.html file
+- Create a fake resume in the resume.html document
 
 # Exercise Result
+
+![Home](home.png)
+![About](about.png)
+![News](news.png)
+![Contact](contact.png)
+![Resume](resume.png)
 
 # Further Reading
 
