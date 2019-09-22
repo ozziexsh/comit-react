@@ -252,7 +252,7 @@ Vs if we just removed the tag, it would think that Bob's age is actually his nam
 
 # Exercise Result
 
-![Exercise 04 result](../../readme-assets/exercise-04-result.png)
+![Exercise 04 result](result.png)
 
 # Further Reading
 

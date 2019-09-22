@@ -139,7 +139,7 @@ Definition: The spell causes the named object to rise in the air and move around
 
 # Exercise Result
 
-![Exercise 03 result](../../readme-assets/exercise-03-result.png)
+![Exercise 03 result](result.png)
 
 # Further Reading
 

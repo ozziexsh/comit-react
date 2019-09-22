@@ -15,4 +15,4 @@ Let's start off small and create a spinoff of the Hello World application that w
 
 # Exercise Result
 
-![Exercise 01 result](../../readme-assets/exercise-01-result.png)
+![Exercise 01 result](result.png)

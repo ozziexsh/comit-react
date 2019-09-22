@@ -29,7 +29,7 @@ Let's take a real world example. Say you have 6 images that you want to display 
 
 It would show all of the images one next to eachother.
 
-![Images displayed inline](../../readme-assets/lesson-06-inline.png)
+![Images displayed inline](inline.png)
 
 Now that we have our new gained knowledge of `<div>` elements though, we can group them up to the grid that we want.
 
@@ -50,7 +50,7 @@ Now that we have our new gained knowledge of `<div>` elements though, we can gro
 
 Which will produce the result we're after.
 
-![Images displayed in a 2x3 grid](../../readme-assets/lesson-06-grid.png)
+![Images displayed in a 2x3 grid](grid.png)
 
 ### Semantic alternatives to `<div>`
 
@@ -86,7 +86,7 @@ Let's say you have a blog article that shows the date it was posted in a nice an
 </article>
 ```
 
-![Article with short-form date](../../readme-assets/lesson-06-short-date.png)
+![Article with short-form date](short-date.png)
 
 But what if we want to know the exact time that it was posted? It wouldn't look very good in our layout to have that level of detail, but a common pattern in website development is to show the full timestamp of the date when you hover over top of it.
 
@@ -112,7 +112,7 @@ Since we want this only on the date and not the whole "Posted on..." text, we wo
 </article>
 ```
 
-![Article with long date on hover](../../readme-assets/lesson-06-long-date.png)
+![Article with long date on hover](long-date.png)
 
 Notice how when we added the span, the content does not shift!
 
@@ -131,7 +131,7 @@ If we were replace that `<span>` with a `<div>`, you can see the difference:
 </article>
 ```
 
-![Article with long date and div instead of span](../../readme-assets/lesson-06-date-div.png)
+![Article with long date and div instead of span](date-div.png)
 
 ## More layout elements
 
@@ -214,8 +214,8 @@ We're going to create a small blog.
 
 # Exercise Result
 
-![Blog index page](../../readme-assets/exercise-06-result-index.png)
-![Blog post/article page](../../readme-assets/exercise-06-result-post.png)
+![Blog index page](result-index.png)
+![Blog post/article page](result-post.png)
 
 # Further Reading
 

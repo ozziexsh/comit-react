@@ -64,7 +64,7 @@ You can display an image in a webpage by using the `img` tag. The image tag is *
 
 # Exercise Result
 
-![Exercise 02 result](../../readme-assets/exercise-02-result.png)
+![Exercise 02 result](result.png)
 
 # Further Reading
 

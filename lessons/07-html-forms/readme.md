@@ -6,10 +6,10 @@ We've been pretty focused on displaying information to the user, but how would w
 
 Introducing: Forms!
 
-![Twitter form](../../readme-assets/lesson-07-twitter.png)
-![Facebook form](../../readme-assets/lesson-07-facebook.png)
-![Gmail login form](../../readme-assets/lesson-07-gmail.png)
-![Gmail compose form](../../readme-assets/lesson-07-gmail-compose.png)
+![Twitter form](twitter.png)
+![Facebook form](facebook.png)
+![Gmail login form](gmail.png)
+![Gmail compose form](gmail-compose.png)
 
 Above are some examples of forms across various popular services. Composing a tweet? You're using a form. Logging in? Yep it's a form. Composing an email? You guessed it. Form.
 
@@ -26,7 +26,7 @@ Let's see what a simple email composer would look like:
 
 This produces the following form
 
-![Basic email compose form](../../readme-assets/lesson-07-basic-email-form.png)
+![Basic email compose form](basic-email-form.png)
 
 It's pretty plain and hard to see what's going on. There's a few things we immidiately notice:
 
