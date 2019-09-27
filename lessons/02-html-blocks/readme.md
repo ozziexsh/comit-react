@@ -2,7 +2,7 @@
 
 Did you do the bonus for exercise 1? Just incase you didn't, here's what it would have looked like:
 
-![Exercise 01 Solution](../../readme-assets/exercise-01-result.png)
+![Exercise 01 Solution](../01-html-introduction/result.png)
 
 Notice how the paragraph went underneath the heading and not beside it? That's because HTML elements have a concept called `blocks`. An element is either `block` or `inline` (more on this later when we get to CSS).
 
