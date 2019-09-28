@@ -119,7 +119,13 @@ We can use the following values: `inherit`, `left`, `right`, `center`, `justify`
   <h1>I'm Centered</h1>
 </div>
 
+<!-- Adding this to the div makes all children align right -->
 <div style="text-align: right;">
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
+    quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum
+    totam molestiae ut earum quod sapiente non amet provident.
+  </p>
   <p>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
     quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum
@@ -127,13 +133,11 @@ We can use the following values: `inherit`, `left`, `right`, `center`, `justify`
   </p>
 </div>
 
-<div style="text-align: left;">
-  <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
-    quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum
-    totam molestiae ut earum quod sapiente non amet provident.
-  </p>
-</div>
+<p style="text-align: left;">
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
+  quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
+  molestiae ut earum quod sapiente non amet provident.
+</p>
 ```
 
 # Exercise Instructions
