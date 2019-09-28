@@ -30,7 +30,7 @@ Every property has different kinds of values that it can take in. In our example
 
 ## More Properties
 
-Let's explore a few more properties that we can play around with.
+Let's explore a few more properties that we can play around with. There are MANY more but we'll take a look at these to get started.
 
 ### background
 
