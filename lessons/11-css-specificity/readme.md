@@ -127,3 +127,4 @@ a .active {
 
 - [CSS Specificity on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
 - [Specifics on Specificity - CSS Tricks](https://css-tricks.com/specifics-on-css-specificity/)
+- [Specificity in 4 minutes](https://www.youtube.com/watch?v=In78mSOHmls)
