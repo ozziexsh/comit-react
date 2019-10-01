@@ -47,6 +47,8 @@ Let's go over what goes into HTML forms and see how we can improve this example
 - `method`
   - The HTTP method that the browser uses to submit the form
   - Can be either `GET` or `POST`
+  - get: corresponds to the HTTP GET method; form data are appended to the action attribute URI with a '?' as separator, and the resulting URI is sent to the server
+  - post: corresponds to the HTTP POST method; form data are included in the body of the form and sent to the server
 - `enctype`
   - when the value of the method attribute is `POST`, enctype is the MIME type of content that is used to submit the form to the server. Possible values:
     - Default: `application/x-www-form-urlencoded`
@@ -165,10 +167,128 @@ The textarea element represents a multi-line plain-text editing control. This el
 
 ## `<label>`
 
+The label is an element that we can use in conjuction with an input to provide context as to what the input is for. Labels have are `inline` layout by default.
+
+```html
+<form>
+  <label>First Name:</label>
+  <input type="text" name="first_name" />
+</form>
+```
+
+Now you might be thinking, can't we just use a `<p>` tag to say what the input is for? Well, you could but there are a few reasons not to:
+
+1. `<label>` is more _semantically_ correct when it comes to accessibility in that it can inform the user that this label is for a certain input
+2. Related to the above, we can directly tell a label that it is for a certain input using the `for=""` attribute on the label. This will also make it so when you click on the label it focuses the input (places your cursor inside of the input).
+
+```html
+<form>
+  <label for="first_name">Name:</label>
+  <input type="text" name="first_name" id="first_name" />
+</form>
+```
+
+In order for the label to know which input to focus, we need to have the label's `for` attribute match the `id` attribute set on the input.
+
 ## `<button>`
+
+If you need a button but do not want it to submit the form, instead of using `<input type="submit" value="Submit!" />` we could use a `<button>` instead.
+
+The button element represents a clickable button, which can be used in forms, or anywhere in a document that needs simple, standard button functionality
+
+```html
+<button>Click me!</button>
+```
+
+## `<fieldset>` & `<legend>`
+
+The fieldset element is used to group several controls as well as labels within a web form.
+
+The legend element represents a caption for the content of its parent fieldset.
+
+```html
+<form>
+  <fieldset>
+    <legend>User Form</legend>
+    <label>First Name:</label>
+    <input type="text" name="first_name" />
+    <label>Last Name:</label>
+    <input type="text" name="last_name" />
+  </fieldset>
+</form>
+```
 
 # Exercise Instructions
 
+- Create two files, `index.html` and `create-user.html`
+
+### index.html
+
+- Add a Document Title: Create User
+- Add a Main Title: Create User
+- Add an Horizontal Rule
+- Create a form element with the following attributes:
+  - action: create-user.html
+  - method: get
+- Inside the form create the following inputs all one above the other, not inline with eachother:
+  - Create an email input with the following attributes:
+    - name: email
+    - placeholder: email
+    - Add a label for this input
+    - Make the input required
+  - Create a text input with the following attributes:
+    - name: username
+    - placeholder: username
+    - size: 30
+    - maxlength: 12
+    - Add a label for this input
+  - Create a password input with the following attributes:
+    - name: password
+    - size: 30
+    - maxlength: 8
+    - placeholder: password
+    - Add a label for this input
+    - Make the input required
+  - Create a textarea input with the following attributes:
+    - name: bio
+    - placeholder: give a brief description of this user
+    - Add a label for this input ABOVE the textarea, not on the same line
+  - Create a radio button group with the following values:
+    - Description: Select your favourite superhero
+    - Inputs values and description: Superman, Batman, Wonder Woman, Flash, Thor, Hulk
+    - Default selected superhero Wonder Woman
+    - Add a label for this input
+    - We should only be able to select one of these at a time
+  - Create a Checkbox group with the following values:
+    - Description: Select your favourite video game
+    - Inputs values and description: Fifa, NHL, Resident Evil, Uncharted
+    - Default selected video games should be Fifa and Uncharted
+    - Inputs name should be videogames
+    - Add a label for this input
+  - Place a single `<fieldset>` around the checkbox AND radio buttons. Add a `<legend>` "Interests"
+  - Create a hidden input with the following attributes:
+    - name: userid
+    - value: 2300
+  - Clicking on any of the above labels should focus the proper inputs
+  - Create a submit button with the value "Create User"
+
+### create-user.html
+
+- Add a Document Title: Created User
+- Add a Main Title: Created User
+- Add an Horizontal Rule
+- Add a parragraph with the following text: Now you can login to our site
+- Create a fake link (`href="#"`) around the login word from the previous paragraph
+
 # Exercise Result
 
+![index.html result](result-01.png)
+![create-user.html result](result-02.png)
+
 # Further Reading
+
+- [MDN form element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+- [MDN input element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- [MDN textarea element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- [MDN label element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
+- [MDN button element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
