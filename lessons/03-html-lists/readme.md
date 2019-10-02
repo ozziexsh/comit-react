@@ -58,8 +58,7 @@ HTML allows infinite nesting of lists, mixing and matching as needed. This can b
 
 ```html
 <ul>
-  <li>Unorder list item</li>
-  <li>
+  <li>Unordered list item
     <ol>
       <li>Order list item</li>
       <li>Order list item</li>
