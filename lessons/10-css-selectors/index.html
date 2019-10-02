@@ -10,14 +10,29 @@
             .first-group {
                 text-align: right;
             }
-            .first-paragraph {
+            .second-group {
+                text-align: justify;
+            }
+            .first-group > p.first{
                 font-style: italic;
             }
-            .second-paragraph{
+            .first-group > p.second{
                 background-color: blue;
                 color: rgb(255, 255,255);
             }
-
+            .first-group > p.third > span{
+                font-size: 24px;
+            }
+            
+            .second-group > p.first{
+                background-color:salmon;
+            }
+            .second-group > p.second{
+                text-transform: uppercase
+            }
+            .second-group > p.third > span{
+                text-transform: capitalize
+            }
         </style>
     </head>
     <body>
@@ -25,37 +40,39 @@
             <h1>Home Page</h1>
         </header>
         <div class="first-group">
-            <p class="first-paragraph">
+            <p class="first">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
                 quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
                 molestiae ut earum quod sapiente non amet provident. 
             </p>
-            <p class="second-paragraph" color: rgb(255,255,255)">
+            <p class="second">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
                 quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
                 molestiae ut earum quod sapiente non amet provident. 
             </p>
-            <p>
-                <span style="font-size: 24px">Lorem</span>, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
+            <p class="third">
+                <span>Lorem</span>, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
                 quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
                 molestiae ut earum quod sapiente non amet provident. 
             </p>            
         </div>
-        
-        <p style="background-color: sandybrown">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
-            quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
-            molestiae ut earum quod sapiente non amet provident. 
-        </p>
-        <p style="text-transform: uppercase">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
-            quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
-            molestiae ut earum quod sapiente non amet provident. 
-        </p>
-        <p style="text-transform: capitalize">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
-            quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
-            molestiae ut earum quod sapiente non amet provident. 
-        </p>
+        <div class="second-group">
+            <p class="first">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
+                quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
+                molestiae ut earum quod sapiente non amet provident. 
+            </p>
+            <p class="second" >
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
+                quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
+                molestiae ut earum quod sapiente non amet provident. 
+            </p>
+            <p class="third" >
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi itaque, ad
+                quo eius tempora reiciendis suscipit porro nihil, voluptate facere, cum totam
+                molestiae ut earum quod sapiente non amet provident. 
+            </p>
+        </div>
+        ///change something
     </body>
 </html>
