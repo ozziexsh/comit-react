@@ -220,6 +220,150 @@ ID's are different in classes in that they are unique. Only ONE single html tag 
 
 [Read more on ID's on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)
 
+## Attribute Selectors
+
+Let's say we have a form that looks like this
+
+```html
+<form>
+  First Name: <input type="text" name="first_name" /> Last Name:
+  <input type="text" name="last_name" /> Email:
+  <input type="email" name="email" />
+</form>
+```
+
+If we wanted to target only the inputs that have `type="text"` (and not `type="email"`) and set their width to `100px` we could do:
+
+```html
+<html>
+  <head>
+    <style>
+      input[type="text"] {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      First Name: <input type="text" name="first_name" /> 
+      Last Name: <input type="text" name="last_name" /> 
+      Email: <input type="email" name="email" />
+    </form>
+  </body>
+</html>
+```
+
+By typing out the selector and then adding square brackets immediately afterwards we can type the attribute we want to target inside the square attributes as it would appear on the html document. So in this case to target `type="text"` we wrote `input[type="text"]`.
+
+We can also omit the selector to the left and just write
+
+```css
+[type="text"] {
+  width: 100px;
+}
+```
+
+If we didn't only want to narrow it down to `<input>` tags.
+
+[More on attribute selectors on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+## Descendant Combinator
+
+Given the following markup, how could we target the `<p>` tags inside the first div (`.numbers-container`) without targeting the ones in the second (`.text-container`)?
+
+```html
+<div class="numbers-container">
+  <p>1</p>
+  <p>2</p>
+</div>
+<div class="text-container">
+  <p>Lorem ipsum...</p>
+  <p>Lorem ipsum...</p>
+</div>
+```
+
+If we just used a `p` selector we would target all 4 so that wouldn't work. We could add a class to both `<p>` tags inside the first div, but that would be repetitive.
+
+Instead, we can use descendant combinators to target an elements _children_.
+
+```html
+<html>
+  <head>
+    <style>
+      p {
+        font-size: 16px;
+      }
+      .numbers-container p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="numbers-container">
+      <p>1</p>
+      <p>2</p>
+    </div>
+    <div class="text-container">
+      <p>Lorem ipsum...</p>
+      <p>Lorem ipsum...</p>
+    </div>
+  </body>
+</html>
+```
+
+The descendant combinator we have above is
+
+```css
+.numbers-container p {
+  color: red;
+}
+```
+
+Where we have the _parent_ selector `.numbers-container`, and then a space, and then the _child_ selector of `p`. This says we want to target ALL of the `<p>` tags INSIDE the `.numbers-container`. It doesn't matter how many levels of nesting there are, if there is a `<p>` inside of `.numbers-container` it will be impacted. For example,
+
+```html
+<div class="numbers-container">
+  <div>
+    <div>
+      <div>
+        <p>I would still be red</p>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+The paragraph inside the above would be red.
+
+What if we want to only target `<p>` tags that are IMMEDIATE children of the `.numbers-container` element?
+
+Using the same syntax as the descendant combinator we just learned, we can place a `>` operator between the two selectors to only target the immediate children. See the example below
+
+```html
+<html>
+  <head>
+    <style>
+      .text-container > p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-container">
+      <p>I would be red</p>
+      <div>
+        <p>
+          This paragraph wouldn't be red because it is not an immediate child of
+          .numbers-container
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+```
+
+[More on descendant combinators on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator)
+
 # Exercise Instructions
 
 - Create a file, index.html
