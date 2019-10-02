@@ -1,0 +1,21 @@
+.paraItalic {
+    font-style: italic;
+}
+
+.backBlue {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+}
+.font_size{
+    font-size: 24px;
+}
+
+.background{
+    background-color: #74992e;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capital{
+    text-transform: capitalize;
+}
