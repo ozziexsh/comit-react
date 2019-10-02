@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<!--
+    Use <label> ya big bum
+-->
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, inital-scale=1.0" charset="utf-8" />
+            <title>Create User</title>
+    </head>
+
+    <body>
+        <h1>Create User</h1>
+        <hr />
+
+        <form action="create-user.html" method="GET">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="Email" required> <br />
+            <label for="username">Username:</label>
+            <input type="text" name="username" maxlength="12" size="30" placeholder="Username"> <br />
+            <label for="password">Password:</label>
+            <input type="text" name="password" maxlength="8" size="30" placeholder="Password" required> <br />
+            <label for="bio">Bio:</label> <br />
+            <textarea name="bio" placeholder="give a brief description of this user"></textarea>
+
+            <fieldset>
+                <legend>Interests</legend>
+                <label for="superheroes">Select your favourite superhero:</label>
+                <input type="radio" name="superheroes">Superman
+                <input type="radio" name="superheroes">Batman
+                <input type="radio" name="superheroes" checked>Wonder Woman
+                <input type="radio" name="superheroes">Flash
+                <input type="radio" name="superheroes">Thor
+                <input type="radio" name="superheroes">Hulk
+
+                <br />
+
+                <label for="videogames">Select your favourite video game:</label>
+                <input type="checkbox" name="videogames" value="Fifa" checked> Fifa
+                <input type="checkbox" name="videogames" value="NHL"> NHL
+                <input type="checkbox" name="videogames" value="ResidentEvil"> Resident Evil
+                <input type="checkbox" name="videogames" value="Uncharted" checked> Uncharted
+            </fieldset>
+
+            <input type="hidden" name="userid" value="2300">
+
+            <input type="submit" value="Create User" />
+        </form>
+    </body>
+</html>
