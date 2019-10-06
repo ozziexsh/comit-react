@@ -1,0 +1,46 @@
+<html>
+
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+    <header>
+        <h1>Create User</h1>
+        <hr/>
+        <form action="create-user.html" method="get">
+            <label for="email">Email:</label>
+            <input type="email" id="email"
+                pattern=".+@globex.com"  placeholder="Enter your emailid" required><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username"
+                size="30" maxlength="12" placeholder="Enter your username"><br>
+            <input id="userid" name="userid" type="hidden" value="2300">    
+            <label for="password">Password:</label>
+            <input type="password" id="password"
+                size="30" maxlength="8" placeholder="Enter your password" required><br> 
+            <label>Bio:</label>   
+            <textarea name="bio" placeholder="give a brief description of this user"></textarea>    
+
+            <fieldset>
+                <legend>Interests</legend>
+                <label for="radio">Select your favourite superhero</>
+                <input type="radio" name="superhero" value="false" /> Superman
+                <input type="radio" name="superhero" value="false" /> Batman
+                <input type="radio" name="superhero" value="true"  checked/> Wonder Woman
+                <input type="radio" name="superhero" value="false" /> Flash
+                <input type="radio" name="superhero" value="false" /> Thor
+                <input type="radio" name="superhero" value="false" /> Hulk <br>
+
+                <label for="checkbox">Select your favourite video game:</label>
+                <input type="checkbox" name="videogames" value="Fifa" checked />Fifa
+                <input type="checkbox" name="videogames" value="NHL" />NHL
+                <input type="checkbox" name="videogames" value="Resident Evil" />Resident Evil
+                <input type="checkbox" name="videogames" value="Uncharted" checked />Uncharted
+
+            </fieldset>
+
+            <input type="submit" value="Create User" />
+        </form>
+    </header>
+    </body>
+</html>    
