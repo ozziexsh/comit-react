@@ -25,8 +25,15 @@ Flexbox is a way to specify how to layout **child elements** of a **parent eleme
 
 # Exercise Instructions
 
+Wes Bos has a great video series on flexbox that is entirely free and I recommend you watch it. All you need to do is:
+
+- Enter your email at [flexbox.io](https://flexbox.io)
+- Click the confirmation email sent to your inbox
+- Create an account
+- Watch the series!
+
 # Exercise Results
 
 # Further Reading
 
-- [FREE 20 video course on flexbox](http://flexbox.io/)
+- [Flebox tutorial on MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)

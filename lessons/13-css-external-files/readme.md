@@ -36,7 +36,25 @@ The link tag has two required attributes
 
 # Exercise Instructions
 
+- Create 3 files - `index.html`, `about.html`, `news.html`
+- For each file:
+  - Set the document title to the page's name, e.g. "About"
+  - Add a `<header>` with a title inside containing the page's name, e.g. "About"
+  - Add a `<nav>` inside the header with links to each page
+  - Add 3 paragraphs of content to each page
+- Create a file, `style.css`
+- Apply the following styles to your pages by writing CSS inside of `style.css`
+  - Center the header text
+  - Make the nav links red
+  - Make the paragraphs have a font size of 18px
+  - Create one CSS class that you can add to the current page's nav link that will set its color to `#00aced`
+- Don't forget to `<link />` your CSS file in each of your `.html` files!
+
 # Exercise Results
+
+![index.html](index.png)
+![about.html](about.png)
+![news.html](news.png)
 
 # Further Reading
 

@@ -126,7 +126,20 @@ Possible values:
 
 # Exercise Instructions
 
+- Create a file, `index.html`
+- Set the document title to be "Pseudo Classes"
+- Create a heading with the title "Funky List Items"
+- Create an unordered list with 10 items in it
+  - Set the text in each list item to anything
+- Apply the following styles **using pseudo classes**
+  - When hovering over the 2nd item in the list, set its background to red and text to white
+  - Set the first item in the list to be font size `32px`
+  - Set every 3rd item to have a text color of green
+  - Set the last item to be all uppercase text
+
 # Exercise Results
+
+![Result](result.png)
 
 # Further Reading
 

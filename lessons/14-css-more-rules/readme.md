@@ -186,6 +186,7 @@ Would make all `<div>` tags display inline instead of being block!
 
 Display has a bunch of different values it can take, but here are a few common ones:
 
+- `none` - hide the element
 - `block` - make the element display like a block element (take up full width)
 - `inline` - make the element display like an inline element (take up only its content space)
 - `inline-block` - behaves like `inline` but with a few differences
@@ -196,7 +197,33 @@ Display has a bunch of different values it can take, but here are a few common o
 
 # Exercise Instructions
 
+- Create a file, `index.html`
+- Set its document title to "CSS Rules"
+- Create one `<div>`
+  - Set its content to "Div one"
+  - Give it a background color of red
+  - Set its padding to 20px
+  - Set its display to `inline-block`
+  - Give it a right border of `1px solid orange`
+- Create a second `<div>`
+  - Set its content to "Div two"
+  - Give it a background color of blue
+  - Set its left and right padding to 10px
+  - Set its top and bottom padding to 30px
+  - Set its display to `inline-block`
+  - Give it a full border of `4px solid green`
+- Push the second div away from the first by giving the first div a margin right of `20px`
+- Create a third `<div>`
+  - Give it a height and width of `50px`
+  - Set the background to `#00aced`
+  - Set the text content to "3"
+- Create a fourth `<div>`
+  - Set the text content to "I am hidden"
+  - Give it a display of `none`
+
 # Exercise Results
+
+![Result](result.png)
 
 # Further Reading
 
