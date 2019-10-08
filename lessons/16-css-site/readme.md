@@ -10,7 +10,7 @@ We're going to take the site we built before and style it up a bit! Full creativ
 
 - Have your image, page title, and navigation centered at the top of every page
 - Display the navigation links to each page inline instead of stacked, using Flexbox
-- Give the form some breathing room! Use margin and padding to space things out
+- Give the forms some breathing room! Use margin and padding to space things out
 
 # Exercise Results
 

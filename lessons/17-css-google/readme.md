@@ -1,5 +1,7 @@
 # Lesson 17 - Copying Google
 
+# This lesson is incomplete, I will post the remaining later tonight
+
 I find one of the best way to practice what we learn is to recreate what already exists! Unlike the last lesson where you had some creative freedom in what went on your website, this one we're going to recreate it exactly as it looks on [https://google.ca](https://google.ca). By doing this we do not need to spend time thinking or worrying about what needs to be done, since it's all layed out for us already!
 
 Here's what we'll be building:
@@ -46,10 +48,14 @@ We can achieve this effect quite easily with flexbox! When we want two things to
   <body>
     <nav>
       <div>
-        ... left content
+        <a href="#">About</a>
+        <a href="#">Store</a>
       </div>
       <div>
-        ... right content
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img src="menu.png" />
+        <img src="http://placehold.it/50x50" />
       </div>
     </nav>
   </body>
