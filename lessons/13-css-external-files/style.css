@@ -1,0 +1,12 @@
+header {
+    text-align: center;
+}
+nav a {
+    color: red;
+}
+.active {
+    color: #00aced
+}
+p {
+    font-size: 18px;
+}
