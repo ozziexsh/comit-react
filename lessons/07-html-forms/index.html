@@ -1,0 +1,36 @@
+<html>
+    <title>Create User</title>
+    <header>
+        <h1>Create User</h1>
+    </header>
+    <hr />
+    <form action="create-user.html" method="get">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="email" /><br /><br />
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" size="30" maxlength="12" placeholder="username" /><br /><br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" size="30" maxlength="8" placeholder="password" /><br /><br />
+            <label for="bio">Bio:</label>
+            <textarea name="bio" id="bio" cols="30" rows="2" placeholder="give a brief description of the user"></textarea><br /><br />
+            <fieldset>
+                <legend>Interest</legend>
+                Select your favourite super hero
+                <input type="radio" name="superhero" value="true" /> Superman
+                <input type="radio" name="superhero" value="false" /> Batman
+                <input type="radio" name="superhero" value="false" /> Wonder Woman
+                <input type="radio" name="superhero" value="false" /> Flash
+                <input type="radio" name="superhero" value="false" /> Thor
+                <input type="radio" name="superhero" value="false" /> Hulk
+                <br><br>
+                Select your favourite video game
+                <input type="checkbox" name="videogame" value="Fifa" checked />Fifa
+                <input type="checkbox" name="videogame" value="NHL" />NHL
+                <input type="checkbox" name="videogame" value="Resident Evil" />Resident Evil
+                <input type="checkbox" name="videogame" value="Unchartered" checked />Unchartered
+            </fieldset>
+            <input type="hidden" name="userid" value="2300" />
+            <input type="submit" value="Create user" />
+          </form>
+          
+</html>
