@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+        <title>Pseudo Classes</title>
+
+    <style>
+    nav ul > li:first-child + li:hover {
+        background: red;
+        color: white;
+      }
+    nav ul > li:first-child{
+        font-size:32px;
+    }
+    nav ul > li:nth-child(3n){
+        color:green;
+    }
+    nav ul > li:last-of-type{
+        text-transform: uppercase;
+    }
+    </style>
+    </head>
+    <body>
+        <h1>Funky List Items</h1>
+    <nav>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+            <li>Five</li>
+            <li>Six</li>
+            <li>Seven</li>
+            <li>Eight</li>
+            <li>Nine</li>
+            <li>Ten</li>
+        </ul>
+    </nav>
+    </body>
+</html>
