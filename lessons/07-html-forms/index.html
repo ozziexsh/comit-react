@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1><hr />
+        <form action="create-user.html" method="GET">
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="email" required/><br />
+            <label for="text">Username:</label>
+            <input type="text" name="username" placeholder="username" maxlength="12" size="30" /><br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="password" maxlength="8" size="30" /><br />           
+            <label for="Bio">Bio:</label><br />
+            <textarea name="bio">give a brief description of this user</textarea><br />  
+            <fieldset>
+                <legend>Interests</legend>
+                <label for="Select your favourite superhero">Select your favourite superhero</label>
+                <input type="radio" name="superhero" value="Superman" />Superman
+                <input type="radio" name="superhero" value="Batman" />Batman
+                <input type="radio" name="superhero" value="Wonder Woman" checked />Wonder Woman
+                <input type="radio" name="superhero" value="Flash" />Flash
+                <input type="radio" name="superhero" value="Thor" />Thor
+                <input type="radio" name="superhero" value="Hulk" />Hulk<br />
+                <label for="Select your favourite video game">Select your favourite video game</label>
+                <input type="checkbox" name="videogame" value="Fifa" checked />Fifa
+                <input type="checkbox" name="videogame" value="NHL"  />NHL
+                <input type="checkbox" name="videogame" value="Resident Evil"  />Resident Evil
+                <input type="checkbox" name="videogame" value="Uncharted" checked />Uncharted
+            </fieldset><br />
+            <input type="submit" value="Create User"/>
+
+        </form>
+    </body>
+</html>
