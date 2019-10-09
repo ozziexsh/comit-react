@@ -6,8 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
     <style>
-        nav{
+        *{
+            font-family: sans-serif;
+        }
+        nav {
             display: flex;
+            justify-content: space-between; 
+            flex-direction: row;
+            align-items: center;
+        }
+        nav div > a{
+            color: #333;
+            text-decoration: none;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+        main{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+        }
+        main img{
+            width:380px;
+            margin-bottom: 30px;
+        }
+        .search-container{
+            display:flex;
+            align-items:center;
+            border: 1px solid grey;
+            padding-top: 10px;
+            
+        }
+        .search-container img{
+            width:15px;
+        }
+        .search-container input{
+            width:480px;
+            border:0px;
+        }
+        .button-container{
+            display:flex;
+            justify-content:center;
+        }
+        .live-container{
+            
+        }        
+        .live-text{
+            color:red;
+        }
+        .live-container a{
+            text-decoration: none;            
+        }
+        .live-container a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            bottom:0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            display:flex;            
+            flex-direction: column;
+            font-size: 13px;
+        }
+        .footer-offer{
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        .footer-nation{
+            border-top: 1px solid #e4e4e4;
+            background:#f2f2f2;
+            text-align: left;
+            margin-left:15px;
+            padding-left:27px; 
+            height: 35px;
+        }
+        .footer-links{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e4e4e4;
+            background:#f2f2f2;
+            text-align: left;            
+            height: 35px;
+        }
+        .footer-links a{
+            color: #333;
+            text-decoration: none;
+        }
+        .footer-links a:hover{
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -20,9 +111,50 @@
         <div>
             <a href="#">Email</a>
             <a href="#">Images</a>
-            <img src="" alt="">
+            <img src="menu.png" alt=""/>
+            <img src="https://lh3.googleusercontent.com/-0C9iA1bzBjI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdVSEJ-wvg0TPdcerM-4JoO56WUEg.CMID/s64-c/photo.jpg" alt="">
         </div>
     </nav>
-    
+    <main>
+        <img src="google-logo.png" alt="">
+        <form action="http://google.ca/search" method="GET">
+            <div class="search-container">
+                <img src="search-icon.png" alt="">
+                <input type="text" name="q">
+                <img src="voice-icon.png" alt="">
+            </div>
+            <div class="button-container">
+                <button>
+                    Google Search
+                </button>
+                <button>I'am Feeling lucky</button>
+            </div>
+        </form>
+        <p class="live-container">
+           <span class="live-text"> Live!</span> <a href="#">Watch the Federal Leaders' Debate 2019</a>
+        </p>
+    </main>
+    <footer>
+        <div class="footer-offer">
+            <span>Google offered in:</span> <a href="">Français</a>              
+        </div>
+        <div class="footer-nation">
+                <p>
+                        Canada
+                </p>     
+        </div>
+        <div class="footer-links">
+            <div>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
