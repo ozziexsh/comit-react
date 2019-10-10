@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+}
+
+a {
+  color: red;
+}
+
+p {
+  font-size: 18px;
+}
+
+.change-color {
+  color: #00aced;
+}
