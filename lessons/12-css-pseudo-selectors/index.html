@@ -1,37 +1,38 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>Pseudo Classes</title>
+    <style>
+      ul li:nth-child(2):hover {
+        background: red;
+        color: white;
+      }
+      ul li:first-child {
+        font-size: 32px;
+      }
 
-<header>
-  <title>Pseudo Classes</title>
-</header>
-<style>
-  ul li:nth-child(2):hover {
-    background: red;
-    color: white;
-  }
-  ul li:first-child {
-    font-size: 32px;
-  }
+      ul li:nth-child(3n) {
+        color: green;
+      }
+      ul li:last-child {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
 
-  ul li:nth-child(3n) {
-    color: green;
-  }
-  ul li:last-child {
-    text-transform: uppercase;
-  }
-</style>
-
-<body>
-  <h1>Funky List Items</h1>
-  <ul>
-    <li>Apple</li>
-    <li>Cherry</li>
-    <li>Farkleberry</li>
-    <li>Banana</li>
-    <li>Eggpfruit</li>
-    <li>Grapes</li>
-    <li>Imbe</li>
-    <li>Hackberry</li>
-    <li>Jackfruit</li>
-    <li>Dates</li>
-  </ul>
-</body>
+  <body>
+    <h1>Funky List Items</h1>
+    <ul>
+      <li>Apple</li>
+      <li>Cherry</li>
+      <li>Farkleberry</li>
+      <li>Banana</li>
+      <li>Eggpfruit</li>
+      <li>Grapes</li>
+      <li>Imbe</li>
+      <li>Hackberry</li>
+      <li>Jackfruit</li>
+      <li>Dates</li>
+    </ul>
+  </body>
+</html>
