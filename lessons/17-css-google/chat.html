@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        .conversation-listing{
+            display:flex;
+            align-items:center; 
+            margin-bottom:15px;
+        }
+        .conversation-listing img{
+            border-radius: 50%;             
+        }
+        .conversation-listing p{
+            color:#888;
+            font-weight: 300;
+            font-size:12px;
+        }
+        
+        .conversation-text{
+            margin-left:10px;
+            flex:1;
+        }
+        .conversation-listing p,.converstion-name-container h2{
+            margin: 0;
+        }
+        .converstion-name-container{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .converstion-name-container h2{
+            font-weight: 400;          
+        }
+        .sidebar header{
+            display:flex;
+            align-items:center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+        .search-box{
+            margin-top:15px;
+            margin-bottom:15px;
+            background: #eee;
+            border-radius: 4px;
+            padding: 6px;
+            display: flex;
+            align-items:center;        
+        }
+        .search-box input{
+            margin-left:10px; 
+            border:0;
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <header>
+            <img src="http://placehold.it/20x20" alt="Gear">
+            <h2>Messenger</h2>
+            <img src="http://placehold.it/20x20" alt="Gear">
+            
+        </header>
+        <div class="search-box">
+            <img src="http://placehold.it/15x15" alt="search">
+            <input type="text" placeholder="Search messenger">
+        </div>     
+        <div>
+                <div class="conversation-listing">
+                        <img src="http://placehold.it/40x40" alt="Profile picture">
+                        <div class="conversation-text">
+                            <div class="converstion-name-container">
+                                <h2>Nam Tran</h2>
+                                <p>Sept 22</p>
+                            </div>            
+                            <p>Hey what's up havent talked in awhile</p>            
+                        </div>    
+                </div>
+
+                <div class="conversation-listing">
+                        <img src="http://placehold.it/40x40" alt="Profile picture">
+                        <div class="conversation-text">
+                            <div class="converstion-name-container">
+                                <h2>Nam Tran</h2>
+                                <p>Sept 22</p>
+                            </div>            
+                            <p>Hey what's up havent talked in awhile</p>            
+                        </div>    
+                </div>
+
+                <div class="conversation-listing">
+                        <img src="http://placehold.it/40x40" alt="Profile picture">
+                        <div class="conversation-text">
+                            <div class="converstion-name-container">
+                                <h2>Nam Tran</h2>
+                                <p>Sept 22</p>
+                            </div>            
+                            <p>Hey what's up havent talked in awhile</p>            
+                        </div>    
+                </div>
+
+        </div>   
+    </div>
+
+    
+    
+</body>
+</html>

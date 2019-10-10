@@ -7,13 +7,25 @@
     <title>Google</title>
     <style>
         *{
-            font-family: sans-serif;
+            font-family: sans-serif;            
         }
         nav {
             display: flex;
             justify-content: space-between; 
             flex-direction: row;
             align-items: center;
+            font-size:14px;
+        }
+        nav a, nav img {
+            margin-left: 20px;
+        }
+        .nav-profile-info{
+            display:flex; 
+            justify-content: space-between;
+            align-items:center;          
+        }
+        .image-profile{
+            border-radius: 50%;
         }
         nav div > a{
             color: #333;
@@ -35,20 +47,37 @@
         .search-container{
             display:flex;
             align-items:center;
-            border: 1px solid grey;
-            padding-top: 10px;
-            
+            border: 1px solid #eee;
+            margin-bottom: 15px;
+            border-radius: 20px;
         }
         .search-container img{
-            width:15px;
+            width:15px;            
+            margin:4px;
         }
         .search-container input{
             width:480px;
             border:0px;
+            margin:10px;
+        }
+        .search-container input:hover{
+           border: 0;
         }
         .button-container{
             display:flex;
             justify-content:center;
+        }
+        .button-container button{
+            margin-left:15px;
+            padding:7px 15px;
+            border-radius: 4px;
+            background-color: #eee;
+            border: 1px solid  #eee;
+            color:rgba(0,0,0,0.4);
+        }
+        .button-container button:hover{
+            border: 1px solid rgba(0,0,0,0.2);
+            color:rgba(0,0,0,0.8);
         }
         .live-container{
             
@@ -78,9 +107,7 @@
         .footer-nation{
             border-top: 1px solid #e4e4e4;
             background:#f2f2f2;
-            text-align: left;
-            margin-left:15px;
-            padding-left:27px; 
+            text-align: left;           
             height: 35px;
         }
         .footer-links{
@@ -108,11 +135,11 @@
             <a href="#">About</a>
             <a href="#">Store</a>    
         </div>
-        <div>
+        <div class="nav-profile-info">
             <a href="#">Email</a>
             <a href="#">Images</a>
             <img src="menu.png" alt=""/>
-            <img src="https://lh3.googleusercontent.com/-0C9iA1bzBjI/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdVSEJ-wvg0TPdcerM-4JoO56WUEg.CMID/s64-c/photo.jpg" alt="">
+            <img class="image-profile" src="http://placehold.it/40x40" alt="">
         </div>
     </nav>
     <main>
@@ -133,11 +160,12 @@
         <p class="live-container">
            <span class="live-text"> Live!</span> <a href="#">Watch the Federal Leaders' Debate 2019</a>
         </p>
+        <div class="footer-offer">
+                <span>Google offered in:</span> <a href="">Français</a>              
+        </div>
     </main>
     <footer>
-        <div class="footer-offer">
-            <span>Google offered in:</span> <a href="">Français</a>              
-        </div>
+        
         <div class="footer-nation">
                 <p>
                         Canada
