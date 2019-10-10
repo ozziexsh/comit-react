@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo classes</title>
+    <style>
+        .item-list li:nth-child(2n):hover{
+            background: red;
+            color: white;
+        } 
+        .item-list li:first-child{
+            font-size:32px;
+        }
+        .item-list li:nth-child(2n+1){
+            color:green;
+        }
+        .item-list li:last-child{
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Funky List Items</h1>
+    <ul class="item-list">
+        <li>Item 01</li>
+        <li>Item 02</li>
+        <li>Item 03</li>
+        <li>Item 04</li>
+        <li>Item 05</li>
+        <li>Item 06</li>
+        <li>Item 07</li>
+        <li>Item 08</li>
+        <li>Item 09</li>
+        <li>Item 10</li>
+
+    </ul>
+</body>
+</html>
