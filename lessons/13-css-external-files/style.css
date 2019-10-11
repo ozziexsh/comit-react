@@ -1,0 +1,12 @@
+.header {
+    text-align: center
+}
+nav a {
+    color: red;
+}
+div p {
+    font-size: 18px;
+}
+.current{
+    color: #00aced;
+}
