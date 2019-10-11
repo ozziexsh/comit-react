@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google</title>
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        nav div a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        nav div a:hover {
+            text-decoration: underline;
+        }
+
+        .navFlex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .headerLinks {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        nav div img {
+            width: 35px;
+            height: 35px;
+            margin-left: 20px;
+        }
+
+        main > img {
+            width: 300px;
+            margin-top: 100px;
+        }
+
+        .search {
+            border: 1px solid grey;
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 25px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .search img {
+            width: 15px;
+            height: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .search input {
+            width: 400px;
+            border: none;
+        }
+
+        .buttonFlex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttonFlex button {
+            margin-right: 5px;
+            background-color: f2f2f2;
+            color: #333;
+            border: none;
+            padding: 8px 16px;
+        }
+
+        .liveText {
+            color: red;
+        }
+
+        .livep a {
+            text-decoration: none;
+        }
+
+        .livep a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navFlex">
+        <div class="headerLinks">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+
+        <div class="headerLinks">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <img src="menu.png" alt="Menu"/>
+                <img src="http://placehold.it/35x35" />
+        </div>
+    </nav>
+
+    <main>
+        <img src="google-logo.png" alt="Google logo" />
+
+        <form action="https://google.ca/search" method="GET">
+            <div class="search">
+                <img src="search-icon.png" />
+                <input type="text" name="Q">
+                <img src="voice-icon.png" />
+            </div>
+
+            <div class="buttonFlex">
+                <button type="submit">Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </form>
+        <p class="livep"><span class="liveText">Live! </span><a href="#">Watch the Federal Leaders’ Debate 2019</a></p>
+    </main>
+</body>
+</html>

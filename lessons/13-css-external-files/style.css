@@ -1,0 +1,11 @@
+h1, nav {
+    text-align: center;
+}
+
+a {
+    color: red;
+}
+
+.active {
+    color: #00aced;
+}
