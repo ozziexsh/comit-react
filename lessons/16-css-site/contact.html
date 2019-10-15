@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Contact | Basharah Batool</title>
+    <style>
+      * {
+        font-family: "Arial";
+      }
+      header div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav a {
+        display: inline-flex;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
+      main div {
+        padding-top: 15px;
+        padding-right: 15px;
+      }
+
+      .input-width {
+        width: 50%;
+      }
+      .message-height {
+        height: 30%;
+      }
+
+      .image-round {
+        border: 1px solid white;
+        border-radius: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img
+          src="rose.jpg"
+          alt="My pic"
+          width="150"
+          height="150"
+          class="image-round"
+        />
+        <h2>Basharah's Portfolio</h2>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div>
+      <hr />
+      <h1>Contact</h1>
+    </div>
+
+    <main>
+      <form action="contact-success.html" method="GET">
+        <div>
+          <label>Name:</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name here"
+            class="input-width"
+            required
+          />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter valid email address"
+            class="input-width"
+            required
+          />
+        </div>
+        <div>
+          <div><Label>Message:</Label></div>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter your message here"
+            class="input-width"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <div>
+          <input type="submit" name="send" value="Send!" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

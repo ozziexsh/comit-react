@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Home | Basharah Batool</title>
+    <style>
+      * {
+        font-family: "Arial";
+      }
+      header div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav a {
+        display: inline-flex;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      .image-round {
+        border: 1px solid white;
+        border-radius: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img
+          src="rose.jpg"
+          alt="My pic"
+          width="150"
+          height="150"
+          class="image-round"
+        />
+        <h2>Basharah's Portfolio</h2>
+      </div>
+      <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div>
+      <hr />
+      <h1>Home</h1>
+    </div>
+
+    <main>
+      <p>
+        Welcome to my portfolio. Click "About" to know WHO I AM. Click "Contact"
+        to reach me.<br /><br />Use the form below to search on Google:
+      </p>
+    </main>
+    <form action="https://google.ca/search" method="Get">
+      <label>Search</label>
+      <input type="text" name="q" />
+      <input type="submit" name="search" value="Search Google" />
+    </form>
+  </body>
+</html>
