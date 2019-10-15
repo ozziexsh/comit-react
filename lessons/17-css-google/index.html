@@ -1,0 +1,138 @@
+<html>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-right{
+            display: flex;
+            align-items: center;
+            
+        }
+        nav a, nav img{
+            margin-right: 15px;
+        }
+        nav a{
+            color: #333;
+            text-decoration: none;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .google-logo{
+            display: flex;
+            margin-top: 50px;
+            width: 250px;
+        }
+        .search-container{
+            display: flex;
+            align-items: center;
+            border: 1px solid #dfe1e5;
+            border-radius: 25px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .search-container img{
+            width: 10px;
+            height: auto;
+        }
+        .search-container input{
+            width: 450px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border: 0;
+        }
+        .button-container{
+            display: flex;
+            justify-content: center;
+        }
+        .button-container button{
+            margin-right: 5px;
+            border: 0;
+            border-radius: 5px;
+            background: #f2f2f2;
+            color: #333;
+            padding: 8px 16px;
+        }
+        .offer{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .canada{
+            display: flex;
+            background: rgb(216, 213, 213);
+            justify-content: left;
+            padding: 5px;
+            
+        }
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            background: rgb(216,213,213);
+            border-top: solid;
+            border-color: rgb(202, 198, 198);
+            padding: 5px;
+            
+        }
+    </style>
+
+    <body>
+        <nav>
+            <div>
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class="nav-right">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <img src="menu.png" />
+                <img src="http://placehold.it/50x50" />
+            </div>
+        </nav>
+    </body>
+    <main>
+        <img src="google-logo.png" alt="Google's logo" class="google-logo">
+        <form action="https://google.ca/search" method="GET">
+            <div class="search-container">
+                <img src="search-icon.png" alt="Search Icon">
+                <input type="text" name="q">
+                <img src="voice-icon.png" alt="Voice Icon">
+            </div>
+            <div class="button-container">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+
+            </div>
+            <div class="offer">
+                <p>Google offered in: <span style="color: blue;">Francais</span></p>
+            </div>
+        </form>
+    </main>
+    <body>
+        <div class="canada">canada</div>
+        <div class="footer">
+            <div>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </body>
+</html>
