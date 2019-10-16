@@ -16,6 +16,6 @@ console.log('Next city: ', nextCity);
 console.log('First name: ', FIRST_NAME);
 console.log('Last name: ', LAST_NAME);
 console.log('Month of Birth: ', MONTH_OF_BIRTH);
-console.log('Full name: ', FIRST_NAME, LAST_NAME);
+console.log('Full name: ', '${FIRST_NAME} ${LAST_NAME}');
 
 
