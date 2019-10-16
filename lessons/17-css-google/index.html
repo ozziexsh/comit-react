@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+      body {
+          display: flex;
+          height: 100vh;
+          flex-direction: column;
+      }  
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .nav-right {
+          display:flex;
+          align-items: center;
+
+      }
+      nav a,
+      nav img {
+        margin-right: 15px;
+      }
+      nav a {
+          color: #333;
+          text-decoration: none;
+      }
+      nav a:hover {
+          text-decoration: underline;
+      }
+      main {
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          height: 100vh;
+          padding-top: 150px;
+      }
+      .google-logo {
+          width: 272px;
+          height: 92px;
+          margin-bottom: 20px;
+      }
+      .search-container {
+          display: flex;
+          align-items: center;
+          border: 1px solid #dfe1e5;
+          border-radius: 25px;
+          padding: 10px;
+          width: 582px;
+          height: 24px;
+      }
+      .search-container img {
+          width: 15px;
+          height: auto;
+      }
+      .search-container input {
+          margin-left: 10px;
+          margin-right: 10px;
+          width: 582px;
+          height: 24px;
+          border: 0;
+      }
+      .button-container {
+          display: flex;
+          justify-content: center;
+      }
+      .button-container button {
+          margin-right: 5px;
+          margin-top: 15px;
+          background: #f2f2f2;
+          color: #333;
+          border: 0;
+          border-radius: 3px;
+          padding: 8px 16px;          
+      }
+      .nav-profile {
+          border-radius: 50px;
+      }
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        background: #f2f2f2;
+        color: rgba(0, 0, 0,.54);
+        border-top: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+        padding-left: 30px; 
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0;
+      }
+     
+      footer div p {
+          display: flex;
+          justify-content: left;
+          padding-left: 30px; 
+          padding-top: 15px;
+          padding-bottom: 15px;
+          background: #f2f2f2;
+          color: rgba(0, 0, 0,.54);
+          border-top: 1px solid #e4e4e4;
+          border-bottom: 1px solid #e4e4e4;
+          margin-bottom: 0;
+          
+      }
+      .footer-right {
+          display: flex;
+          align-items: center;
+          padding: 10px;
+      }
+      .footer-container a {
+          margin-right: 15px;
+          text-decoration: none;
+          color:#5f6368
+      }
+      .footer-container a:hover {
+          text-decoration: underline;
+      }
+      
+      .nav-menu {
+          height: 20;
+          width: 20;
+      }
+      .center-container {
+          display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="#">About</a>
+        <a href="#">Store</a>
+      </div>
+      <div class="nav-right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img class="nav-menu" src="menu.png" />
+        <img class="nav-profile" src="http://placehold.it/50x50" />
+      </div>
+    </nav>
+    <main>
+        <img src="google-logo.png" alt="googles logo" class="google-logo">
+        
+        <form action="https://google.ca/search" method="GET">
+            <div class="search-container">
+                <img src="search-icon.png" alt="Search Icon">
+                <input type="text" name="q"/>
+                <img src="voice-icon.png" alt="Voice Icon">
+            </div>
+
+            <div class="button-container">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </form>
+        <div class="center-container"> 
+            <p class="center=text"><img src="https://www.google.com/images/hpp/shield_security_checkup_green_2x_web_96dp.png" height="48" width="48" alt="img"> It's Cybersecurity Month. Take a Checkup to strengthen your saved passwords</p>
+        </div>
+        <div>
+            <p>Google offered in: <a href="index-french.html">Français</a></p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Canada</p>
+        </div>
+        <div class="footer-container">
+            <div class="footer-left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+            <div class="footer-right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+        
+    </footer>
+  </body>
+</html>
