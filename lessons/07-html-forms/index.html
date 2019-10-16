@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h2>Create User</h2>
+    <hr/>
+    <form action="create-user.html" method="GET">
+            <p><label>Email:</label><input type="email" name="email" placeholder="email" /><br>
+                <label>Username:</label><input type="text" name="username" placeholder=username size="30" maxlength="12"/><br>
+                <label>Password:</label> <input type="password" size="30" maxlength="8" placeholder="password" /><br>
+                <label>Bio:</label><br> <textarea name="bio" placeholder="give a brief description of this user"></textarea></p>
+                
+        
+    </form>     
+   <fieldset><label>Interests:</label>
+    <div>
+        <form>
+            Select your favourite superhero
+            <input type="radio" name="superhero" value="Superman" />Superman
+            <input type="radio" name="superhero" value="Batman" /> Batman
+            <input type="radio" name="superhero" value="Wonderwoman" checked />Wonderwoman
+           
+            <input type="radio" name="superhero" value="flash" /> flash
+            <input type="radio" name="superhero" value="Thor" /> Thor
+            <input type="radio" name="superhero" value="Hulk" /> Hulk
+          </form>
+    </div>
+       <div>
+        <form>
+            Select your favourite video game
+            <input type="checkbox" name="videogames" value="Fifa" checked />
+            Fifa
+            <input type="checkbox" name="videogames" value="Uncharted" checked />
+            Uncharted
+            <input type="checkbox" name="videogames" value="NHL" />
+            NHL
+            <input type="checkbox" name="videogames" value="Resident Evil" />
+            Resident Evil
+          </form>
+       </div>
+      
+           
+       </fieldset>
+    <form>
+        <input type="submit" value="Create User!" />
+      </form>
+
+
+    </form>
+</body>
+</html>
