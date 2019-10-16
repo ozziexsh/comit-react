@@ -1,0 +1,12 @@
+  p {
+    font-size: 18px;
+  }
+  header {
+    text-align: center;
+  }
+  nav .selfpage {
+    color: #00aced;
+  }
+  nav a {
+    color: red;
+  }
