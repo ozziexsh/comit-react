@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>google</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .nav-right {
+            display:flex;
+            align-items: center;
+        }
+        .img-profile {
+            border-radius: 50%;
+        }
+        .img-menu {
+            width: 15px;
+        }
+        nav a, nav img {
+            margin-right: 15px;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 150px;
+            margin-bottom:100px;
+        }
+        .google-logo {
+            width:150px;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            border:1px solid #dfe1e5;
+            border-radius: 500px;
+            padding:10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .search-container img {
+            width: 10px;
+        }
+        .search-container input {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 250px;
+            border:0;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .button-container button {
+            margin-right: 5px;
+            background: #f2f2f2;
+            color: #333;
+            border:0;
+            border-radius: 3px;
+            padding: 8px 16px;
+        }
+        .under-container {
+            text-align:center;
+        }
+        .under-container span{
+            color:blue;
+        }
+        footer {
+            display: flex;
+            background: #f2f2f2;
+            color: #333;
+            flex-direction: column;
+            border:1px solid #dfe1e5;
+        }
+        .footer-buttom {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            border:1px solid #dfe1e5;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .footer-buttom a {
+            color: #333;
+            text-decoration: none;
+        }
+        .footer-buttom a:hover{
+            text-decoration: underline;
+        }
+        .footer-top {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div class="nav-right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <img src="menu.png" class="img-menu" />
+            <img src="http://placehold.it/50x50" class="img-profile" />
+        </div>
+    </nav>
+    <main>
+        <img src="google-logo.png" alt="Google's Logo" class="google-logo" />
+        <form action="https://google.ca/search" method="GET">
+            <div class="search-container">
+                <img src="search-icon.png" alt="Search Icon" />
+                <input type="text" name="q" />
+                <img src="voice-icon.png" alt="Voice Icon" />
+            </div>
+            <div class="button-container">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+            <div class="under-container">
+                <p><strong>Google offered in: <span>Francais</span></strong></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <a>Canada</a>
+        </div>
+        <div class="footer-buttom">
+            <div>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Setting</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
