@@ -1,1 +1,1 @@
-alert("Hello, world!";)
+alert("Hello, world! this is the about page");
