@@ -5,5 +5,5 @@ const lastName = "Batool";
 let city, age, nextCity;
 
 city = "Karachi";
-age = "34";
+age = 34;
 nextCity = city;
