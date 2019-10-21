@@ -8,7 +8,7 @@
 # Exercise Instructions
 
 - Create the files `index.html` and `index.js`
-- Set the document title to "Lesson 22"
+- Set the document title to "Lesson 26"
 - Include the `index.js` file into the `index.html`
 - Inside the `index.js`:
   - Define a function that will show even numbers from 0 to 100 as output
