@@ -19,7 +19,7 @@ Some articles to give a brief history/context if you are unfamiliar with what a 
 
 Please read these tutorials in order to complete the exercise
 
-- [An Introduction - An Introduction To JavaScript][https://javascript.info/intro]
+- [An Introduction - An Introduction To JavaScript](https://javascript.info/intro)
 - [An Introduction - Developer console](https://javascript.info/devtools)
 - [JavaScript Fundamentals - Hello, world!](https://javascript.info/hello-world)
 - [JavaScript Fundamentals - Code structure](https://javascript.info/structure)
