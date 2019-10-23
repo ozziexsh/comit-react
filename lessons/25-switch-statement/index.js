@@ -24,29 +24,31 @@ else if (weekdayNumber == 7) {
 else {
     alert ("EROR : Number not between 1 and 7");
 }
+let message;
 switch (weekdayNumber) {
     case '1':
-        alert ("Today is Monday");
+        message = "Monday";
         break;
     case '2':
-        alert ("Today is Tuesday");
+        message = "Tuesday";
         break;
     case '3':
-        alert ("Today is Wednesday");
+        message = "Wednesday";
         break;
     case '4':
-        alert ("Today is Thursday");
+        message = "Thursday";
         break;
     case '5':
-        alert ("Today is Friday");
+        message = "Friday";
         break;
     case '6':
-        alert ("Today is Saturday");
+        message = "Saturday";
         break;
     case '7':
-        alert ("Today is Sunday");
+        message = "day";
         break;
     default:
-        alert ("EROR : Number not between 1 and 7");
+        message = "EROR : Number not between 1 and 7";
         break;
 }
+console.log(message);
