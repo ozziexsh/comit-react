@@ -68,3 +68,10 @@ function fib () {
     }
 }
 fib ();
+
+function name () {
+    console.log("==========");
+    console.log("==Jaynen==");
+    console.log("==========");
+} 
+name ();
