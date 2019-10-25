@@ -1,4 +1,4 @@
-/*let i=0;
+let i=0;
 function evenNumbers() {
     for (i=0; i<=50; i++)
     {
@@ -36,8 +36,9 @@ showeven();
 showeven();
 showeven();
 showeven();
-showeven();*/
+showeven();
 
+// Fibonacci
 
 let a=0;
 let b=1;
@@ -57,9 +58,9 @@ function fib () {
             
             console.log(b);
         }
-        else
-        {break;}
-
+        else{
+            break;
+        }
         c=a+b;
         d=c+b;
         a=c;
