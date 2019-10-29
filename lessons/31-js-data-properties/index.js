@@ -1,4 +1,4 @@
-/*
+
 // Favourite Movies
 let favouriteMovies = prompt("Enter your three favourite movies: ");
 let favMovies = favouriteMovies.split(', ');
@@ -7,7 +7,7 @@ for ( let movies of favMovies) {
 }
 
 //Prompt the user to enter a sentence that they would like reversed
-*/
+
 function reverseString() {
     
     let sentence = prompt("Enter your sentence: ");
