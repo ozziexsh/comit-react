@@ -1,4 +1,4 @@
-let i=0;
+/*let i=0;
 function evenNumbers() {
     for (i=0; i<=50; i++)
     {
@@ -74,4 +74,12 @@ function name () {
     console.log("==Jaynen==");
     console.log("==========");
 } 
-name ();
+name ();*/
+
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+}
+let sum = salaries.John + salaries.Ann + salaries.Pete
+console.log("Sum is:", sum);
