@@ -1,0 +1,24 @@
+body {
+  background: palegreen;
+}
+
+form {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+form > div {
+  margin-bottom: 12px;
+}
+
+.input-container label {
+  display: block;
+}
+
+.input-container input, 
+.input-container textarea,
+.input-container select {
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+}
